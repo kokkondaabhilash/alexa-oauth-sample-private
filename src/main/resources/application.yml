@@ -1,0 +1,23 @@
+server:
+  port: 5000
+  tomcat:
+    use-relative-redirects: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+        web:
+          filter:
+            CommonsRequestLoggingFilter: DEBUG
+spring:
+  data:
+    mongodb:
+      uri: mongodb://ioxapiusr:i0xM0ng%40Stu%24r@va10tlvmdb317.wellpoint.com:37043/DigitalVoiceAssistant?ssl=true&sslInvalidHostNameAllowed=true
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - mappings
