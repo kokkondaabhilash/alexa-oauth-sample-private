@@ -14,7 +14,7 @@ logging:
 spring:
   data:
     mongodb:
-      uri: mongodb://ioxapiusr:i0xM0ng%40Stu%24r@va10tlvmdb317.wellpoint.com:37043/DigitalVoiceAssistant?ssl=true&sslInvalidHostNameAllowed=true
+      uri: mongodb+srv://kokkondaabhilash:kokkondaabhilash@cluster0.zych3mc.mongodb.net/?retryWrites=true&w=majority
 management:
   endpoints:
     web:
